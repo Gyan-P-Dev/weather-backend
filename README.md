@@ -13,8 +13,8 @@ Before you begin, ensure the following tools are installed on your machine:
 
 ## 1. Clone the Repository
 
-a. **git clone https://github.com/Gyan-P-Dev/weather-backend.git**
-b. **cd weather-app-backend**
+1. **git clone https://github.com/Gyan-P-Dev/weather-backend.git**
+2. **cd weather-app-backend**
 
 ## 2. Install Ruby and Rails Dependencies
 Next, install the required Ruby gems and dependencies for the project: **bundle install**
@@ -25,8 +25,10 @@ To fetch weather data, you need a valid Weatherbit API key. Follow these steps t
 1. Visit Weatherbit API and sign up for an API key.
 2. Add the API key to your environment variables.
 
-Adding the API Key:
-For Linux/macOS: Create .env file and put the API key there 
+```or```
+
+**Adding the API Key:**
+Create .env file in the root directory and put the API key (WEATHERBIT_API_KEY=587dc776b0f44990a1e7cee19e098c65) 
 
 ## 4. Running the Server: rails s
 This will launch the application on the default port (http://localhost:3000).

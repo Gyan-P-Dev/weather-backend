@@ -48,3 +48,5 @@ group :development do
 end
 
 gem 'httparty'
+gem 'factory_bot_rails'
+gem 'rspec-rails'
